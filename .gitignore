@@ -1,0 +1,66 @@
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# === Virtual Environment ===
+venv/
+.venv/
+env/
+ENV/
+
+# === Jupyter Notebook ===
+.ipynb_checkpoints/
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Data files (large datasets) ===
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+*.json
+*.xml
+
+# === Model files ===
+*.pkl
+*.h5
+*.pth
+*.onnx
+*.joblib
+*.model
+
+# === Images (generated plots, etc.) ===
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp
+
+# === Misc ===
+*.log
+*.tmp
+*.bak
+
+*.data
